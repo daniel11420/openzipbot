@@ -1,0 +1,28 @@
+{
+  "name": "openzipbot",
+  "version": "0.0.1",
+  "description": "A rewrite of daniel11420/zipbot to hard-code less settings so that we can make it open-source (also to make the code less spaghetti)",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel11420/openzipbot.git"
+  },
+  "keywords": [
+    "zipbot",
+    "openzipbot",
+    "zipcode",
+    "ziplaw"
+  ],
+  "author": "daniel11420/Zipcode",
+  "license": "SEE LICENSE IN license.txt",
+  "bugs": {
+    "url": "https://github.com/daniel11420/openzipbot/issues"
+  },
+  "homepage": "https://github.com/daniel11420/openzipbot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
