@@ -25,9 +25,9 @@ function updateScreen() {
     console.log('\r\n');
 
     // General info about bot
-    console.log("Copyright (c) 2019, Zipcode");
+    console.log("Copyright (c) 2019-2020, daniel11420");
     console.log("github.com/daniel11420/OpenZipbot");
-    console.log("Please read license.txt for licensing info.");
+    console.log("Please read /LICENSE for licensing info.");
 }
 
 client.on('ready', () => {

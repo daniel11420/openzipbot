@@ -4,7 +4,7 @@
   "description": "A rewrite of daniel11420/zipbot to hard-code less settings so that we can make it open-source (also to make the code less spaghetti)",
   "main": "entry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "ziplaw"
   ],
   "author": "daniel11420/Zipcode",
-  "license": "SEE LICENSE IN license.txt",
+  "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/daniel11420/openzipbot/issues"
   },
