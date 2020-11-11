@@ -62,7 +62,7 @@ client.on ("messageReactionAdd", (messageReaction, user) => {
 client.on('typingStart', async (channel, user) => {
     if (user.bot) return;
     if (FaqReminded.includes(user.id)) return;
-    if (channel.id == config.id.customerSupport.channel1 || channel.id == config.id.customerSupport.channel2) {
+    if (channel.id == config.id.customerSupport.channel1) {
         embed = new discord.RichEmbed ()
             .setDescription(config.id.customerSupport.text)
             .setFooter(`To @${user.tag} | This message will be deleted in one minute. (unless an error occurs)`)
